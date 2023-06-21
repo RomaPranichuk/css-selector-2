@@ -1,1 +1,92 @@
+.lesson-four-task-one button:hover {
+  color: red;
+  background-color: yellow;
+}
 
+.lesson-four-task-two .link:hover + .title {
+  background-color: green;
+}
+
+.lesson-four-task-three
+  .link:visited[href='#lesson-four-task-three'] {
+  color: yellow;
+}
+
+.lesson-four-task-four .link:link[href='#sidebar'] {
+  color: red;
+}
+
+.lesson-four-task-five .btn:active {
+  background-color: blue;
+}
+
+.lesson-four-task-six .btn:focus {
+  background-color: orange;
+  color: orange;
+}
+
+.lesson-four-task-seven #target:target {
+  color: white;
+  background-color: green;
+}
+
+.lesson-four-task-eight #checkbox:checked + #target {
+  color: white;
+  background-color: blue;
+}
+
+.lesson-four-task-nine p:lang(uk) {
+  color: blue;
+}
+
+.lesson-four-task-ten .form-group #username:enabled,
+.lesson-four-task-ten .form-group #password:enabled {
+  color: red;
+  background-color: yellow;
+}
+
+.lesson-four-task-eleven #username:disabled,
+.lesson-four-task-eleven #password:disabled {
+  background-color: yellow;
+}
+
+.lesson-four-task-twelve #password:read-write {
+  background-color: yellow;
+}
+
+.lesson-four-task-thirteen input:read-only {
+  background-color: yellow;
+}
+
+.lesson-four-task-fourteen input:valid {
+  background-color: green;
+}
+
+.lesson-four-task-fourteen input:invalid {
+  background-color: red;
+}
+
+.lesson-four-task-fifteen #message:optional {
+  background-color: red;
+}
+
+.lesson-four-task-sixteen #quantity:out-of-range {
+  color: red;
+}
+
+.lesson-four-task-seventeen #quantity:in-range {
+  color: red;
+}
+
+.lesson-four-task-eighteen input:placeholder-shown {
+  background-color: red;
+}
+
+.lesson-four-task-nineteen button:focus-within {
+  background: yellow;
+  color: white;
+}
+
+.lesson-four-task-twenty input:invalid {
+  background-color: red;
+}
